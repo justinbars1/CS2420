@@ -1,0 +1,73 @@
+=========================================
+Assignment coding automatic grader output: Barsketis
+
+=========================================
+---All files included and compile---
+(i.e., zip contains Book, Library, LibraryBook, 
+LibraryBookGeneric, LibraryGeneric, and all compile).
+
+Points received:   5/5
+
+===================
+---Original Tests---
+Non-Generic Testing
+10/10 tests passed.  5/5 Points
+
+Generic Tests
+8/8 tests passed.  5/5 Points
+
+===================
+---Phase 1 Testing---
+Testing Book.java
+7/7 tests passed.  7/7 Points
+
+Joint testing LibraryBook.java and Library.java
+12/12 tests passed.  12/12 Points
+
+===================
+---Phase 2 Testing---
+Joint testing LibraryBookGeneric.java and LibraryGeneric.java
+11/11 tests passed.  11/11 Points
+
+Testing LibraryGeneric<Object> methods
+TEST FAILED: Lookup(holder) failed on LibraryGeneric<Object>
+9/10 tests passed.  9/10 Points
+
+===================
+---Phase 3 Testing---
+Sorting by due date testing
+TEST FAILED: overDueList for PhoneNumber failed.
+TEST FAILED: overDueList for some books failed.
+TEST FAILED: overDueList for one book failed.
+4/7 tests passed.  4/7 Points
+
+Sorting by author testing
+4/4 tests passed.  8/8 Points
+
+================== 
+---Analysis Document--- 
+Question 1:       2/2 
+Question 2:       2/2
+Question 3:       2/2 
+Question 4:       2/10 
+Question 5:       2/2 
+Question 6:       2/2 
+
+===================
+Submitted/compiled:      5/5
+Program points:          61/65
+Student-provided tests:  5/5
+Programming style:       5/5   
+Coding Points:           76/80
+Document Points:         12/20
+
+Total Points:            88/100
+
+
+===================
+Comments:
+- Your comments are good, but maybe you can do a bit better.
+- You do need to explain about the natural ordering vs user ordering in question 4, your answer is very insufficient.
+
+
+
